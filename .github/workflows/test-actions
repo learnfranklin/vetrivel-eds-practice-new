@@ -1,0 +1,9 @@
+name: Permission Check
+on: workflow_dispatch
+
+jobs:
+  check-access:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        run: echo "GitHub Actions is working!"
